@@ -1,0 +1,88 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family: Arial;
+}
+*
+{
+	box-sizing: border-box;
+}
+.main
+{
+	text-align: center;
+}
+.sub1
+{
+	background-color:#cf1b1b;
+	width:80px;
+	height: auto;
+	font-size: 21px;
+	text-align: center;
+	border:2px solid black;
+	float: right;
+	margin:0px;
+
+}
+.sub2
+{
+	background-color:#900d0d;
+	width:80px;
+	height: auto;
+	font-size: 21px;
+	text-align: center;
+	border:2px solid black;
+	float: right;
+	margin:0px;
+
+}
+.sub3
+{
+	color: #ffdbc5;
+	background-color:#423144;
+	width:80px;
+	height: auto;
+	font-size: 21px;
+	text-align: center;
+	border:2px solid black;
+	float: right;
+	margin:0px;
+
+}
+
+div p
+{
+	clear: right;
+	padding: 20px;
+	font-size: 19px;
+}
+.chicken,.fish,.mutton
+{
+	width:32%;
+	border:2px solid black;
+	background-color: #ffdbc5;
+	float: left;
+	margin: 5px;
+	border-radius: 8px;	
+}
+
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.chicken,.fish
+	{
+		width:48.5%;
+		float: right;
+	}
+	.mutton
+	{
+		width: 99%;
+	}
+}
+@media(max-width: 767px)
+{
+	.chicken,.fish,.mutton
+	{
+		width: 98%;
+	}
+}
