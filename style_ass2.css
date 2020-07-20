@@ -19,7 +19,7 @@ body
 	height: auto;
 	font-size: 24px;
 	text-align: center;
-	border:2px solid black;
+	border:1px solid black;
 	float: right;
 	margin:0px;
 
@@ -31,7 +31,7 @@ body
 	height: auto;
 	font-size: 24px;
 	text-align: center;
-	border:2px solid black;
+	border:1px solid black;
 	float: right;
 	margin:0px;
 
@@ -44,7 +44,7 @@ body
 	height: auto;
 	font-size: 24px;
 	text-align: center;
-	border:2px solid black;
+	border:1px solid black;
 	float: right;
 	margin:0px;
 
@@ -59,7 +59,7 @@ div p
 .chicken,.fish,.mutton
 {
 	width:32%;
-	border:2px solid black;
+	border:1px solid black;
 	background-color: #ffdbc5;
 	float: left;
 	margin: 5px;
